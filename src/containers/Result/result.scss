@@ -1,0 +1,46 @@
+@import "../../styles/color";
+
+
+.score_screen{
+  margin-top: 80px;
+}
+
+.score{
+  color: $accent;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 60px;
+  font-weight: 500;
+  margin-bottom: 200px;
+}
+
+.result_label{
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 32px;
+  font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .score_screen{
+    margin-top: 20px;
+    h1{
+      font-size: 24px;
+    }
+
+  }
+  .score{
+    font-size: 22px;
+  }
+  .result_label{
+    font-size: 24px;
+
+  }
+
+
+}
+
